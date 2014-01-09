@@ -1,0 +1,29 @@
+
+//mongo db=hmi collection=events
+{
+	"_id" : ObjectId("52b0c93b0ab5f68a319681a8"),
+	"title" : "Test Event",
+	"address" : "1121 N Howard St. Philadelphia, PA 19123",
+	"description" : "A test event to show functionality of having and event in the database",
+	"start_time" : "2013-12-17 12:35 -0500",
+	"end_time" : "2013-12-17 16:25 -0500",
+	"active" : "true",
+	"impression" : "american-revolutionary-war"
+}
+
+//mongo db=hmi collection=admins
+{
+	"_id" : ObjectId("52b0c2d78a065c221bdc63f3"),
+	"last_login" : "1387317221",
+	"impression" : "american-revolutionary-war",
+	"pwdHash" : "$2a$10$h3tqIoVXxBsBmlAuKjq8..nESGx5i7RRznFpEsAP6dJbLmlbe8YdS",
+	"userId" : 1,
+	"username" : "hmi.revwar",
+	"full_name" : "David Hospador"
+}
+
+//flickr login
+username= hmi.revwar
+password= 3rdPAlights
+
+//Same password and login for admin tools

@@ -1,0 +1,12 @@
+<script src="/js/vendor/jquery-1.10.2.min.js"></script>
+<script src="/js/vendor/moment.min.js"></script>
+<script src="/js/vendor/bootstrap.min.js"></script>
+<script src="/js/vendor/underscore.min.js"></script>
+<script src="/js/vendor/backbone.min.js"></script>
+<!--load backbone files for dev -->
+<script src="/js/models/pressedKey.js"></script>
+<script src="/js/collections/activeKeys.js"></script>
+<script src="/js/views/keyboard.js"></script>
+<script src="/js/views/app.js"></script>
+<!-- modela, views and such go here -->
+<script src="js/main.js"></script>

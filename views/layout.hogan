@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The official website for the reenactor organization Historical Military Impressions">
+    <meta name="author" content="Nathan Offutt">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>{{title}}</title>
+
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div id="pageWrapper">
+
+  	{{> header }}
+
+    {{{ yield }}}
+
+    {{> footer }}
+
+    </div>
+
+    <script tpye="text/javascript">
+
+      var app = {};
+
+    </script>
+
+    {{> pageTemplates }}
+
+    {{> pageScripts }}
+
+  </body>
+</html>

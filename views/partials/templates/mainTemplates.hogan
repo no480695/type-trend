@@ -1,0 +1,12 @@
+<!--
+============================================================
+TEMPLATE: Display Current Keys
+============================================================
+-->
+<script type="text/template" id="tplKeyboardInput">
+
+	<% for ( var x in keys ){ %>
+		<p><%= keys[x].attributes.keyChar %></p>
+	<% } %>
+
+</script>
